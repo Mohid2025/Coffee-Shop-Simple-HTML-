@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+<h1>Welcome to Bean and Byte</h1>
+<p align="center">Fresh coffee, tasty snacks, cozy vibes </p>
+
+<h2>Our Menu</h2>
+<hr>
+
+<div class="menu-sections">
+
+  <div class="menu-category">
+    <h3>Beverages</h3>
+    <div class="menu">
+      <div class="menu-item">
+        <span>Espresso — ₨350</span>
+        <img src="../Coffee Shop/images/Espresso.jpg" alt="">
+      </div>
+      <div class="menu-item">
+        <span>Latte — ₨550</span>
+        <img src="../Coffee Shop/images/Latte.jpg" alt="">
+      </div>
+      <div class="menu-item">
+        <span>Mocha — ₨620</span>
+        <img src="../Coffee Shop/images/Mocha.jpg" alt="">
+      </div>
+      <div class="menu-item">
+        <span>Cappuccino — ₨580</span>
+        <img src="../Coffee Shop/images/Cappuccino.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="menu-category">
+    <h3>Food</h3>
+    <div class="menu">
+      <div class="menu-item">
+        <span>Croissant — ₨250</span>
+        <img src="../Coffee Shop/images/Croissant.jpg" alt="">
+      </div>
+      <div class="menu-item">
+        <span>Blueberry Muffin — ₨300</span>
+        <img src="../Coffee Shop/images/Blueberry Muffin.jpg" alt="">
+      </div>
+      <div class="menu-item">
+        <span>Cheese Sandwich — ₨450</span>
+        <img src="../Coffee Shop/images/Cheese Sandwich.jpg" alt="">
+      </div>
+      <div class="menu-item">
+        <span>Chocolate Cake Slice — ₨400</span>
+        <img src="../Coffee Shop/images/Chocolate Cake Slice.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<h2>Place Your Order</h2>
+<form>
+  <label for="name">Your Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="drink">Choose a drink:</label><br>
+  <select id="drink" name="drink">
+    <option>Espresso</option>
+    <option>Latte</option>
+    <option>Mocha</option>
+    <option>Cappuccino</option>
+  </select><br><br>
+
+  <label for="food">Choose a food item:</label><br>
+<select id="food" name="food">
+  <option>Croissant</option>
+  <option>Blueberry Muffin</option>
+  <option>Cheese Sandwich</option>
+  <option>Chocolate Cake Slice</option>
+</select><br><br>
+
+  <input type="submit" value="Submit Order">
+</form>
+
+
+
+</body>
+</html>
